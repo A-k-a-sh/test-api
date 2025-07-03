@@ -1,4 +1,4 @@
-const express = require('express');
+import express from 'express';
 import { exec } from 'child_process';
 import path from 'path';
 const port = 8080;
