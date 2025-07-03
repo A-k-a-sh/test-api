@@ -18,4 +18,7 @@ app.get('/download' , (req , res) => {
     });
 })
 
+app.listen(port , () => {
+    console.log(`App is listening at port: ${port}`);
+})
 
