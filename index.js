@@ -19,7 +19,7 @@ app.get('/download', (req, res) => {
     });
 })
 
-app.get('/format', (req, res) => {
+app.get('/formats', (req, res) => {
     const videoUrl = req.query.url;
     if (!videoUrl) return res.status(400).json({ error: 'Missing URL' });
 
